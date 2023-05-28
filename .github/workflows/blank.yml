@@ -17,7 +17,7 @@ jobs:
       - name: Synopsys Action
         uses: synopsys-sig/synopsys-action@v1.2.0
         with:
-          blackduck_apiToken: ${{ secrets.BLACKDUCK_API_TOKEN }}
+          blackduck_apiToken: ${{ secrets.BLACKDUCK_API_TOKEN_NEW }}
           blackduck_url: ${{ secrets.BLACKDUCK_URL }}
 
           # Optional parameter. By default, pushes will initiate a full "intelligent" scan and pull requests
