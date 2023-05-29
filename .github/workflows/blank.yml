@@ -25,7 +25,7 @@ jobs:
       - name: Use synopsys unified-action - blackduck-detect
        # Use the action defined in this repository
       - name: Synopsys Action
-        uses: synopsys-sig/synopsys-action@v1.2.0
+      - uses: synopsys-sig/synopsys-action@v1.2.0
         with:
           blackduck_url: ${{ secrets.BLACKDUCK_URL }}
           blackduck_apiToken: ${{ secrets.BLACKDUCK_API_TOKEN_NEW }}
