@@ -31,7 +31,7 @@ jobs:
           blackduck_scan_full: true
           # Required parameter if blackduck_automation_fixpr is enabled
           # Make sure GITHUB_TOKEN have appropriate permissions
-          github-token: ${{ secrets.TOKEN_GITHUB }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           # Optional parameter. By default, create fix pull requests if vulnerabilities are reported
           # Passing false will disable fix pull request creation 
           blackduck_automation_fixpr: true
