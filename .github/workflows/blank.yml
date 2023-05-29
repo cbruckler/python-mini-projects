@@ -35,4 +35,3 @@ jobs:
           # multiple parameters
           # blackduck_scan_failure_severities: "BLOCKER,CRITICAL,TRIVIAL"
           #
-          #
